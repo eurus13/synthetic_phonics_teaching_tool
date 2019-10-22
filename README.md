@@ -1,5 +1,5 @@
 # synthetic_phonics_teaching_tool
-Synthetic phonics sounds for teaching English as foreign language 
+Broswer based keyboard with synthetic phonics sounds for teaching English as foreign language 
 
 Notes: currently not workign in Firefox
 

@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+document.addEventListener('keydown', function(e) {
+var key = String(e.keyCode);
+
+document.getElementById(key).play();
+});
+
+// SE source https://stackoverflow.com/a/35263718
+function reply_click()
+{ var a = event.srcElement.id;
+  var b = parseInt(a/2).toString();
+
+  if(b == a / 2)
+  
+  document.getElementById(b).play();
+  }
+
+</script>
+
+</head>
+<body>
+
+<div class="container">
+  <h1>Synthetic Phonics Sounds</h1>
+  <p>Press letter on keyboard or select button with mouse!</p>
+  <div class="row">
+    <button id="130" class ="btn btn-default" onClick="reply_click(this.id)"> A </button>
+    <button id="132" class ="btn btn-default" onClick="reply_click(this.id)"> B </button>
+    <button id="134" class ="btn btn-default" onClick="reply_click(this.id)"> C</button>
+    <button id="136" class ="btn btn-default" onClick="reply_click(this.id)"> D </button>
+    <button id="138" class ="btn btn-default" onClick="reply_click(this.id)"> E </button>
+    <button id="140" class ="btn btn-default" onClick="reply_click(this.id)"> F </button>
+    </div>
+    <div class="row">
+    <button id="142" class ="btn btn-default "onClick="reply_click(this.id)"> G </button>
+    <button id="144" class ="btn btn-default" onClick="reply_click(this.id)"> H </button>
+    <button id="146" class ="btn btn-default" onClick="reply_click(this.id)"> I </button>
+    <button id="148" class ="btn btn-default" onClick="reply_click(this.id)"> J </button>
+    <button id="150" class ="btn btn-default" onClick="reply_click(this.id)"> K </button>
+    <button id="152" class ="btn btn-default" onClick="reply_click(this.id)"> L </button>
+    </div>
+       <div class="row">
+    <button id="154" class ="btn btn-default" onClick="reply_click(this.id)"> M </button>
+    <button id="156" class ="btn btn-default" onClick="reply_click(this.id)"> N </button>
+    <button id="158" class ="btn btn-default" onClick="reply_click(this.id)"> O </button>
+    <button id="160" class ="btn btn-default" onClick="reply_click(this.id)"> P </button>
+    <button id="162" class ="btn btn-default" onClick="reply_click(this.id)"> Q </button>
+    <button id="164" class ="btn btn-default" onClick="reply_click(this.id)"> R </button>
+    </div>
+       <div class="row">
+    <button id="166" class ="btn btn-default" onClick="reply_click(this.id)"> S </button>
+    <button id="168" class ="btn btn-default" onClick="reply_click(this.id)"> T </button>
+    <button id="170" class ="btn btn-default" onClick="reply_click(this.id)"> U </button>
+    <button id="172" class ="btn btn-default" onClick="reply_click(this.id)"> V </button>
+    <button id="174" class ="btn btn-default" onClick="reply_click(this.id)"> W </button>
+    <button id="176" class ="btn btn-default" onClick="reply_click(this.id)"> X </button>
+    </div>
+       <div class="row">
+    <button id="178" class ="btn btn-default" onClick="reply_click(this.id)"> Y </button>
+    <button id="180" class ="btn btn-default" onClick="reply_click(this.id)"> Z </button>
+    
+    </div>
+</div>
+
+<audio  id="65" controls style="display:none">
+  <source  src="html/a.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="66" controls style="display:none">
+  <source  src="html/b.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="67" controls style="display:none">
+  <source  src="html/c.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+<audio  id="68" controls style="display:none">
+  <source  src="html/d.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+<audio  id="69" controls style="display:none">
+  <source  src="html/e.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+<audio  id="70" controls style="display:none">
+  <source  src="html/f.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="71" controls style="display:none">
+  <source  src="html/g.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="72" controls style="display:none">
+  <source  src="html/h.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="73" controls style="display:none">
+  <source  src="html/i.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="74" controls style="display:none">
+  <source  src="html/j.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="75" controls style="display:none">
+  <source  src="Chtml/k.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="76" controls style="display:none">
+  <source  src="html/l.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="77" controls style="display:none">
+  <source  src="html/m.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="78" controls style="display:none">
+  <source  src="html/n.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="79" controls style="display:none">
+  <source  src="html/o.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="80" controls style="display:none">
+  <source  src="html/p.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="81" controls style="display:none">
+  <source  src="html/q.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="82" controls style="display:none">
+  <source  src="html/r.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="83" controls style="display:none">
+  <source  src="html/s.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="84" controls style="display:none">
+  <source  src="html/t.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="85" controls style="display:none">
+  <source  src="html/u.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="86" controls style="display:none">
+  <source  src="html/v.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+<audio  id="87" controls style="display:none">
+  <source  src="html/w.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="88" controls style="display:none">
+  <source  src="html/x.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+<audio  id="89" controls style="display:none">
+  <source  src="C:\Users\user\Desktop\phonics website\html\y.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<audio  id="90" controls style="display:none">
+  <source  src="C:\Users\user\Desktop\phonics website\html\z.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+
+</body>
+</html> 
